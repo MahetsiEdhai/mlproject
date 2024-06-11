@@ -10,6 +10,7 @@ application=Flask(__name__)
 app=application
 
 ## Route for a home page
+## Ruta de la pagina de inicio
 
 @app.route('/')
 def index():
